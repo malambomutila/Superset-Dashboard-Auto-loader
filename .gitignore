@@ -169,3 +169,10 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+# MyFilesToIgnore
+credentials.txt
+bashscript_log.txt
+cron_reboot.log  
+python_log.txt
