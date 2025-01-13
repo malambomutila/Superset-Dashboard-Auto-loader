@@ -24,8 +24,9 @@ This project provides automated scripts to load and maintain Superset dashboards
 
 1. Install required packages:
 ```bash
-sudo apt-get update
-sudo apt-get install python3-pip chromium-browser
+sudo apt update
+sudo apt install python3-pip chromium-browser
+sudo apt install chromium-chromedriver 
 pip3 install selenium
 ```
 
