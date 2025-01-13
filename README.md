@@ -58,10 +58,9 @@ open_dashboard/
 ├── open_dashboard.sh    # Bash script for continuous monitoring
 ├── setup_dashboard.sh   # Installation and setup script
 ├── credentials.txt      # Credentials file (not tracked in git)
-└── logs/
-    ├── bashscript_log.txt
-    ├── python_log.txt
-    └── cron_reboot.log
+├── bashscript_log.txt
+├── python_log.txt
+└── cron_reboot.log
 ```
 
 ## How It Works
