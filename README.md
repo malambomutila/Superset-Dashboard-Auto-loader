@@ -37,7 +37,7 @@ cd [repository-name]
 
 3. Create a credentials.txt file in the project directory with the following format:
 ```
-<superset_url>
+<superset_url> #This is the url of a specific dashboard not the login page.
 <username>
 <password>
 <dashboard_title>
