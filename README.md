@@ -63,6 +63,9 @@ open_dashboard/
 └── cron_reboot.log
 ```
 
+The project inludes a second python script "open_dashboard2.py" which can be used in place of "open_dashboard.py" if needed. 
+To do so, copy the contents of "open_dashboard2.py" to "open_dashboard.py" or change the name "open_dashboard.py" to "open_dashboard2.py" in line 8 of the bash script "open_dashboard.sh"
+
 ## How It Works
 
 1. At system startup, the cron job launches `open_dashboard.sh`
