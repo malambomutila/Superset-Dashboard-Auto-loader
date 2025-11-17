@@ -31,11 +31,14 @@ with open(credentials_file, "r") as file:
     DASHBOARD_URL_2   = lines[6]    # https://.../excess-mortality/
     DASHBOARD_TITLE_3 = lines[7]    # ND1 Data
     DASHBOARD_URL_3   = lines[8]    # https://.../nd1-data/
+    DASHBOARD_TITLE_4 = lines[9]    # ND2 Data
+    DASHBOARD_URL_4   = lines[10]   # https://.../nd2-data/
 
 DASHBOARDS = [
     {"title": DASHBOARD_TITLE_1, "url": DASHBOARD_URL_1},
     {"title": DASHBOARD_TITLE_2, "url": DASHBOARD_URL_2},
     {"title": DASHBOARD_TITLE_3, "url": DASHBOARD_URL_3},
+    {"title": DASHBOARD_TITLE_4, "url": DASHBOARD_URL_4},
 ]
 
 REFRESH_INTERVAL_MINUTES = 5
